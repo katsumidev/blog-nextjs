@@ -43,7 +43,6 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-          <title>Blog</title>
         </Head>
         <body>
           <Main />
