@@ -1,19 +1,42 @@
-import React from "react";
+import React, {useEffect} from "react";
 import fs from "fs";
 import path from "path";
 import type { GetStaticProps, GetStaticPaths } from "next";
 import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
 import { ParsedUrlQuery } from "querystring";
-// import { Container } from './styles';
+import hljs from 'highlight.js'
+import "highlight.js/styles/dracula.css";
+import {
+  Container,
+  PostTitle,
+  PostSubTitle,
+  PostImage,
+  PostContent,
+  PostData,
+} from "../../styles/pages/Blog";
+import { AiFillCalendar } from "../../styles/Icons";
 
 const blog: React.FC<{ data: any; content: any }> = ({ data, content }) => {
+  useEffect(() => {
+    hljs.initHighlighting();
+  }, []);
+
   return (
-    <>
-      <Markdown>
-        {content}
-      </Markdown>
-    </>
+    <Container>
+      <PostData>
+        <span>
+          <AiFillCalendar />
+          <sub>{data.date}</sub>
+        </span>
+        <PostTitle>{data.title}</PostTitle>
+        <PostSubTitle>{data.subtitle}</PostSubTitle>
+      </PostData>
+      <PostImage alt={data.title} src={data.image} />
+      <PostContent>
+        <Markdown>{content}</Markdown>
+      </PostContent>
+    </Container>
   );
 };
 
@@ -30,7 +53,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   ); // lê o arquivo com esse id
 
   const { data } = matter(data_post); // extrai o frontmatter dele e converte no objeto data
-  const { content } = matter(data_post);
+  const { content } = matter(data_post); // extrai o conteudo do markdown e joga no objeto content
 
   return {
     props: {

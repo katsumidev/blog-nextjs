@@ -1,9 +1,9 @@
 ---
-title: "This is a experiment"
+title: "Man... nextjs is really cool!!"
 subtitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-image: "https://cinemaplanet.pt/wp-content/uploads/2020/06/entrapta.jpg"
+image: "https://www.marciobrasil.net.br/wp-content/uploads/2021/01/1_2tmzU7bve-VlTkOMWsk_Hw.jpg"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-date: "October 26, 2021"
+date: "November 16, 2020"
 ---
 
 This a test of all markdown possibilities:

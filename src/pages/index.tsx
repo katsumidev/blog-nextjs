@@ -2,7 +2,6 @@ import type { GetStaticProps, NextPage } from "next";
 import fs from "fs";
 import React, { ReducerAction } from "react";
 import path from "path";
-import Header from "../components/Header";
 import matter from "gray-matter";
 import PostCard from "../components/PostCard";
 import { Wrapper } from "../styles/pages/Home";
@@ -13,7 +12,6 @@ const Home: React.FC<{ posts: any }> = ({ posts }) => {
 
   return (
     <>
-      <Header />
       <Wrapper>
         {posts.map((post: any, index: any) => {
           return (

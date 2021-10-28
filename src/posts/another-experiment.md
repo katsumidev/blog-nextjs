@@ -1,9 +1,9 @@
 ---
 title: "This is a experiment"
 subtitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-image: "https://cinemaplanet.pt/wp-content/uploads/2020/06/entrapta.jpg"
+image: "https://s.aficionados.com.br/imagens/personalidade-7.jpg"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-date: "October 26, 2021"
+date: "October 6, 2021"
 ---
 
 This a test of all markdown possibilities:

@@ -3,27 +3,26 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 250px;
   margin: 20px;
   cursor: pointer;
-  background-color: #eee;
-  border-radius: 12px;
+  background-color: var(--background-gray);
+  border-radius: 3px;
 
   img {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
   }
 `;
 
 export const Info = styled.div`
   padding: 1.5rem;
-  border-radius: 12px;
-  height: 200px;
+  border-radius: 3px;
+  height: auto;
 
   h2 {
-    white-space: nowrap;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
+    font-size: 1.25rem;
+    word-wrap: break-word;
     font-weight: 900;
   }
 
