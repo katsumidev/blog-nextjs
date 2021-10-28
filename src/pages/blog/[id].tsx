@@ -1,12 +1,11 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import fs from "fs";
 import path from "path";
 import type { GetStaticProps, GetStaticPaths } from "next";
 import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
 import { ParsedUrlQuery } from "querystring";
-import hljs from 'highlight.js'
-import "highlight.js/styles/dracula.css";
+import hljs from "highlight.js";
 import {
   Container,
   PostTitle,
