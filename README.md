@@ -1,6 +1,9 @@
 # blog-nextjs
 
 ### I made it for study purposes, just to learn more about nextjs, typescript, static website generation and markdown.
+
+![Blog](https://github.com/eveprice/blog-nextjs/blob/main/Animation.gif)
+
 ---
 
 ## 💾 Installing 
