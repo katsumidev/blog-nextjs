@@ -16,16 +16,14 @@ git clone https://github.com/eveprice/blog-nextjs
 
 Install the dependencies
 
-  - Front end
-    ```
-    yarn install
-    ```
+```
+yarn install
+```
+    
 Run it!
-
- - First run the front end
-    ```
-    yarn dev
-    ```
+```
+yarn dev
+```
 ---
 
 ## 💻 Technologies
