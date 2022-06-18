@@ -2,7 +2,7 @@
 
 ### I made it for study purposes, just to learn more about nextjs, typescript, static website generation and markdown.
 
-![Blog](https://github.com/eveprice/blog-nextjs/blob/main/Animation.gif)
+![Blog](https://github.com/mooncoded/blog-nextjs/blob/main/Animation.gif)
 
 ---
 
@@ -11,7 +11,7 @@
 Git clone the repository
 
 ```
-git clone https://github.com/eveprice/blog-nextjs
+git clone https://github.com/mooncoded/blog-nextjs
 ```
 
 Install the dependencies
@@ -42,10 +42,10 @@ yarn dev
 <table>
   <tr>
     <td  align=center>
-        <img src="https://avatars.githubusercontent.com/u/90803853?v=4" width="100px" alt="Eve Price">
-        <a href="https://github.com/eveprice">
+        <img src="https://avatars.githubusercontent.com/u/90803853?v=4" width="100px" alt="Moon">
+        <a href="https://github.com/mooncoded">
           <br>
-            Eve Price
+            Moon
           </br>
         </a>
     </td>
